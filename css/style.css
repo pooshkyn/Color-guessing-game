@@ -1,0 +1,103 @@
+body{
+	background: #232323;
+	margin: 0;
+	font-family: "Montserrant", "Avenir", "Helvetica";
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+.square {
+	margin: 1.66%;
+	width: 30%;
+	background: white;
+	padding-bottom: 30%;
+	float: left;
+	border-radius: 15%;
+	transition: background, 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+#container {
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+h1 {
+	margin: 20px auto ;
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	background: steelblue;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 1.1;
+	padding: 20px 0;
+	letter-spacing: 0.2em;			
+}
+
+.text-shadow{
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);
+	-webkit-text-shadow: 
+			0px 4px 3px rgba(0,0,0,0.4),
+			0px 8px 13px rgba(0,0,0,0.1),
+			0px 18px 23px rgba(0,0,0,0.1);
+			
+	-moz-text-shadow: 
+			0px 4px 3px rgba(0,0,0,0.4),
+			0px 8px 13px rgba(0,0,0,0.1),
+			0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#menu {
+	text-align: center;
+	background: white;
+	height: 30px;
+	box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);
+	
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+.selected {
+	background: steelblue;
+	color: white;
+}
+
+button:hover {
+	background: steelblue;
+	color: white;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+}
+
+#pkt {
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	display: inline-block;
+	width: 8%;
+	margin-left: 3%;
+}

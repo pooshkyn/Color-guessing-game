@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- TODO -->
+<!-- wrzucic bootstrapa -->
+<!-- naprawic system punktow -->
+	<title>Color game</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<h1 class="text-shadow">The great
+	<br> 
+	<span id="colorDisplay"></span> 
+	<br>
+	color guessing game
+</h1>
+<div id="menu">
+	<span id=left>
+		<button class="text-shadow" id="reset">New Game</button>
+		<button class="modeBtn selected text-shadow" id="decimal">Decimal</button>
+		<button class="modeBtn text-shadow" id="hexadecimal">Hexadecimal</button>
+	</span>	
+	<span id="message"></span>
+	<span id=right>
+		<button id="easy" class="levelBtn text-shadow">Easy</button>
+		<button id="medium" class="levelBtn text-shadow">Medium</button>
+		<button id="hard" class="selected levelBtn text-shadow">Hard</button>
+	</span>
+	<span id="pkt" class="text-shadow">Pkt: <span id="result">0</span></span>
+</div>
+<div id="container">
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+
+
+	<script type="text/javascript" src="js/colorGame.js"></script>
+</div>
+</body>
+</html>
